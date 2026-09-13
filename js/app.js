@@ -124,6 +124,7 @@ function renderLibrary() {
       <h1>Your places</h1>
       <button class="btn btn-primary hide-mobile-cta" type="button">+ Add a place</button>
     </div>
+
     <label class="search">
       <img class="search-icon icon" src="/assets/icon-search.svg" width="18" height="18" alt="" />
       <input id="search" placeholder="Search your places" value="${state.query}" />
@@ -136,6 +137,11 @@ function renderLibrary() {
         )
         .join("")}
     </div>
+
+      <div class="welcome-back">
+          <h3>See your list of saved places to invite friends to!</h3>
+      </div>
+
     <div class="place-grid">
       ${list
         .map(

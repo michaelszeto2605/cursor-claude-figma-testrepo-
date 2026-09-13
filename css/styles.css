@@ -160,6 +160,10 @@ img.icon {
   font-size: 22px;
 }
 
+.welcome-back {
+  margin: 20px 0;
+} 
+
 .content {
   flex: 1;
   min-width: 0;
