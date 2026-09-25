@@ -661,7 +661,8 @@ h2 {
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background: #e5f3ea;
+  background: #fff;
+  border: 2px solid var(--in);
   color: var(--in);
   display: grid;
   place-items: center;
