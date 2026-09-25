@@ -566,8 +566,8 @@ h2 {
 }
 
 .check.is-on {
-  background: var(--ink);
-  border-color: var(--ink);
+  background: var(--primary);
+  border-color: var(--primary);
 }
 
 .check.is-on::after {
