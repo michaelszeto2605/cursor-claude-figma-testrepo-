@@ -272,7 +272,7 @@ function renderSent() {
     <div class="center-stage">
       <div class="sent-card">
         <div class="check-circle">✓</div>
-        <h1>Invite sent!!</h1>
+        <h1>Success! Invites sent!!</h1>
         <p class="sub">${pretty} just got a text. We’ll tell you as they reply — no need to chase anyone.</p>
         <div class="plan-box">
           <div class="note-label">THE PLAN</div>
