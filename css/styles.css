@@ -275,6 +275,7 @@ h2 {
   font-weight: 700;
   font-size: 15px;
   border: 1px solid transparent;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 .btn-primary {
@@ -290,6 +291,12 @@ h2 {
   background: #fff;
   border-color: #d9d2c8;
   color: var(--ink);
+}
+
+.btn-secondary:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
 }
 
 .rsvp-choice {
@@ -334,6 +341,16 @@ h2 {
   justify-content: space-between;
   background: #fff;
   border: 1px solid #d9d2c8;
+}
+
+.btn-outline:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+.btn-outline:hover .sub {
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .btn-block {
@@ -637,6 +654,7 @@ h2 {
   font-size: 13px;
   color: var(--muted);
   font-weight: 500;
+  transition: color 0.2s ease;
 }
 
 .whos-in {
